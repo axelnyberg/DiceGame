@@ -8,4 +8,5 @@ Features:
 * User login
 * Top-list
 * 
-**This application was created when I was very new to programming.**
+
+*This application was created when I was very new to programming.*
