@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<link rel="stylesheet" type = "text/css" href = "MinSida.css">
+		<title>DiceHeaven</title>
+
+		      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		      <script src="javascript.js"></script>
+	</head>
+
+	<body class = "body">
+		
+		<header class = "header">
+
+<div id = "inlogg1">
+ <span class = "inlogg" > 
+ 	<form method="get" action = "" id = "loginform" >
+ 		<button value = "Click after you written Email and Password" type = "submit" onclick= "login()" class = "buttons">Sign in</button>
+ 	
+ 	<input id ="mail" type="email" placeholder = "Email" required>
+ 	<input id ="losen" type="password" pattern=".{6,}" placeholder = "Password" required>
+ </form>
+ </span>
+	</div>	
+ <span id = "insignad" > 
+	<div id = "inloggad"><h1 id ="inlag"></h1></div>
+		 </span>
+
+				<div class = "div">
+					
+			<h1>Play the worlds hardest DiceGame now!</h1>
+
+<span style="float:left;"> 
+
+	<button href="#" value="Click to play dice" class = "buttons" onClick="changediv('dicegame', 'info', 'toplist', 'register')">DiceGame</button>
+</span>
+
+<span style="float:left;"> 
+
+	
+			<button  value="Click to get information about how the game works" class = "buttons" onClick="changediv('info', 'dicegame', 'toplist', 'register')" >Info</button>
+			</span>
+
+
+
+<span style="float:left;"> 
+
+			<button value="Click to see the toplist" class = "buttons" onClick="changediv('toplist', 'dicegame', 'info', 'register')">Toplist</button>
+
+</span>
+
+<span style="float:left;"> 
+
+			<button value="Click and register so you can save your scores and participate in the toplist" class = "buttons" onClick="changediv('register', 'dicegame', 'toplist', 'info')">Register</button>
+
+</span>
+				</div>
+
+
+			<div class = "bilddiv">
+<img src="dice.gif" />
+			</div>
+
+
+	   </header>
+
+<div id = "dicegame">
+
+<span class = "poang">
+	
+<h1>Points:<span id="poang">0</span></h1>
+<h1>Round:<span id="omgong">0</span>/10</h1>
+
+</span>
+
+
+<div class = "speldiv">
+
+  <div class = "tarningdiv"> <h1 id = "t1" class = "tarningnr"></h1></div> 
+
+
+  <div class = "tarningdiv"> <h1 id = "t2" class = "tarningnr"></h1></div> 
+
+
+  <div class = "tarningdiv"> <h1 id = "t3" class = "tarningnr"></h1></div> 
+
+  <div class = "tarningdiv"> <h1 id = "t4" class = "tarningnr"></h1></div> 
+  
+
+
+ 
+
+    </div>
+    <div class = "divgissa">
+
+<form method="get" action = "" id = "kastform" >
+<button type = "submit" id = "kasta" onClick="kastaa()">Throw</button>
+<input id="gissa" type="text" placeholder = "Guess sum" required></input>
+</form>
+<button id = "reset" onClick="reset()">Restart</button>
+
+</div>
+
+
+</div>
+<div id = "info" ><p>Innan användaren trycker på knappen skall denne ange ett värde i en textrutan "Gissa summa" Värdet är en gissning på summan av de första 3 tärningarna. Om summan är korrekt när tärningarna är kastade, multipliceras summan med värdet av den fjärde tärningen.
+	d.v.s. Om summan av tärning1+tärning2+tärning3 är lika med värdet som användaren gissat på, så multipliceras summan med värdet av tärning4.</p>
+</div>
+</div>
+<div id = "toplist">
+<h1>Toplist:</h1>
+
+
+
+</div>
+</div>
+
+<div id = "register" > 
+
+
+
+
+<p id = "dothis"></p>
+<form method="get" action = "" id = "formregister" >
+<input id="fornamn"  type="text" placeholder = "Axel" required></input><br> 
+<input id="efternamn"  type="text" placeholder = "Nyberg" required></input><br>
+<input id="epost" type="email" placeholder = "axel@diceheaven.com" required></input><br>
+<input id="losenord" type="password" pattern=".{6,}" placeholder  = "******" required>6-14 characters </input><br>
+
+<button type = "submit" onclick= "kontroll()">Done</button>
+
+</form>
+
+
+
+
+
+</div>
+		
+		
+		<footer class = "footer" class "footer">
+
+		<p class = footertext>Copyright by Axel Nyberg inc. All rights reserved.</p>
+
+		
+	</footer>
+	
+	</body>
+</html>

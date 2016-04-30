@@ -1,0 +1,230 @@
+	.body{
+border:solid;
+border-width: 6px;
+border-color: gray;
+border-radius: 12px;
+	}
+
+body { font-family: Verdana; font-size: 11px; }
+header {font-family: Verdana; font-size: 11px; }
+footer {font-family: Verdana; font-size: 11px; }
+.buttons
+{
+width: 100px;
+height: 30px;
+margin-left: 20px;
+margin-bottom:2px%;
+
+ background-color: gray;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:6px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+
+    display: inline;
+    position: relative;
+}
+
+.header{
+	border-bottom-style: double;
+	border-color:gray;
+	border-width: 6px;
+	
+}
+
+.footer{
+border-top-style: double;
+	border-color:gray;
+	border-width: 6px;
+
+	
+
+}
+
+.footertext{text-align: center;
+}
+
+.div{
+	float:left;
+	margin-top: 40px;
+}
+
+.bilddiv{
+	margin-left: 40%;
+}
+
+.textrutadiv{
+	float:right;
+	
+
+}
+
+.inlogg{
+	float:right;
+	margin-top:1%;
+}
+
+.form{
+width: 100px;
+height: 30px;
+margin-left: 20px;
+margin-bottom: 3px;
+}
+
+.speldiv{
+	border:solid;
+border-width: 5px;
+border-radius: 12px;
+border-color: gray;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+margin-bottom: 2%;
+width: 500px;
+height:120px;
+float:center;
+
+}
+
+.tarningdiv{
+	
+	display: inline-block;
+
+text-align: middle;
+margin-left: 5%
+
+}
+
+.tarningnr{
+
+text-align:center;
+color: red;
+
+
+
+}
+
+.divgissa{
+margin-left: 40%;
+margin-bottom: 10px;
+
+}
+
+.poang{
+	height:40px;
+	width:40px;
+	float:right;
+	margin-top: 30px;
+margin-right: 25%;
+}
+
+#dicegame{
+display: block;
+}
+#info{
+display: none;
+}
+
+#toplist{
+display: none;
+}
+#register{
+display: none;
+
+}
+
+#t1{
+		width:80px;
+	height:80px;
+	display: inline-block;
+background-image:url("dice1.png");
+	background-size: 120px;
+margin-left: 
+
+}
+
+#t2{
+		width:80px;
+	height:80px;
+	display: inline-block;
+background-image:url("dice2.png");
+	background-size: 120px;
+
+
+}
+
+#t3{
+	width:80px;
+	height:80px;
+	display: inline-block;
+background-image:url("dice3.png");
+	background-size: 120px;
+
+
+}
+
+#t4{
+	width:80px;
+	height:80px;
+
+	display: inline-block;
+background-image:url("dice4.png");
+	background-size: 120px;
+
+
+}
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.buttons:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    top: 35px;
+    color: #fff;
+    content: attr(value);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.buttons:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 0px 6px 6px 6px;
+    top: 30px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;}
+
+ #inlogg1{
+
+display: inline;
+    }
+
+    #inloggad{
+
+display: none;
+    }
+#insignad{
+
+		float:right;
+	margin-top:1%;
+	marin-right:10px;
+}
+
+
+
+
+
