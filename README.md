@@ -7,6 +7,6 @@ Features:
 * Basic dice game
 * User login
 * Top-list
-* 
+
 
 *This application was created when I was very new to programming.*
